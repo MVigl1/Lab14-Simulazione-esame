@@ -9,7 +9,7 @@ class Controller:
         self._model = model
 
     def handle_graph(self, e):
-        pass
+        self._model.creaGrafo()
 
     def handle_countedges(self, e):
         pass
